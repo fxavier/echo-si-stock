@@ -1,5 +1,5 @@
 FROM node:16-alpine3.17
-WORKDIR /instrumento-sondagens
+WORKDIR /echo-si-stock
 COPY package.json ./
 #COPY package-lock.json ./
 RUN npm install -g npm@9.2.0
